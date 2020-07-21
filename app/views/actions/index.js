@@ -1,7 +1,8 @@
 import addBar from './bar'
-import addFoo from './foo'
+import { addFoo, addFooAsyncWithThunk } from './foo'
 
 export {
   addFoo,
+  addFooAsyncWithThunk,
   addBar
 }

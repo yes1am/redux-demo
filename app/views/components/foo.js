@@ -8,5 +8,8 @@ export default function Foo (props) {
     <div style={{ cursor: 'pointer' }} onClick={props.onClick}>
       click + 1
     </div>
+    <div style={{ cursor: 'pointer' }} onClick={props.onClickThunk}>
+      click async + 1
+    </div>
   </div>
 }
